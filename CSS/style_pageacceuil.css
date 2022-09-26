@@ -1,0 +1,123 @@
+@media (min-width:450px) and (max-width:768px) { 
+    
+    
+    *  { margin: 0px; padding: 0px;   }
+
+
+header .block1
+                {       
+                   width:auto;
+                   height:95px;
+                   background-color: white;
+                   justify-content: center;
+                   align-items: center;
+
+                 }
+
+#mylogo        
+                {         
+                 height: 40px;
+                 padding-top: 50px;
+                 padding-bottom: 15px;
+                 display: block;
+                 margin-left: auto;
+                 margin-right: auto;
+                 margin-top: -20px;
+               
+                }
+
+header .block2  
+                {       
+                  width: auto;
+                  height:55px;
+                  background-color: whitesmoke;
+                  justify-content: center;
+                  align-items: center;
+                }
+
+#location      
+                {  
+
+                 display:flex;
+                 justify-content: center;
+                 align-items: center;  
+                 width: 200px;          
+
+                }
+
+
+#ici           
+                {
+
+                 border: none;
+                 background: none;
+
+                }
+
+::placeholder   
+                { 
+                 font-size: larger;
+                 width: 120px;
+
+                 }
+        
+.contener1       
+                  { 
+                    width:auto;
+                    height: 115px;
+                    background-color: white;
+                    justify-content: center;
+                    align-items: center;
+                    box-shadow: 10px 10px grey;
+
+                  }
+
+.contener2  
+                   {
+                     width: auto;
+                     height: auto;
+                     background: whitesmoke;
+                     justify-content: center;
+                     align-items: center;
+
+                   }
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
