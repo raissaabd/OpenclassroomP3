@@ -3,6 +3,11 @@
     
     *  { margin: 0px; padding: 0px;   }
 
+html 
+{
+  font-family: 'Roboto', sans-serif;
+}
+
 body a 
 {  
   text-decoration: none;
@@ -38,7 +43,8 @@ header .block2
   height:55px;                 
   background-color: lightgrey;                 
   justify-content: center;                
-  align-items: center;               
+  align-items: center;        
+         
   box-shadow: 10px 10px 5px grey;               
 }
 
@@ -127,7 +133,7 @@ header .block2
 #cylindre
 {        
   display: flex;
-  width: 290px;
+  width: 330px;
   height: 60px;
   background-color:white ;
   border-radius:500px ;
@@ -138,8 +144,9 @@ header .block2
   align-items:center;
   margin-top: 35px;
   margin-bottom: 60px;
-  margin-left: 108px;
-  background-color:blueviolet;
+  margin-left: auto;
+  margin-right: auto;
+  background: linear-gradient(#FF79DA, #9356DC);
   box-shadow: 7px 8px 8px lightgrey;               
 }
 
@@ -153,35 +160,40 @@ header .block2
   width: auto;                   
   height: 480px;                    
   background: white;                    
-  justify-content: center;                    
-  align-items: center;                   
+  justify-content: center;    
   box-shadow: 10px 5px 5px grey;
 }
 
 .Titrecontener2
 {
-  padding-top: 60px;
-  margin-left: 15px;
+  padding-top: 30px;
+  margin-left: 25px;
   font-size:xx-large;
+  padding-bottom:30px;
 }
 .cylindrique1,.cylindrique2,.cylindrique3 
 {
   display: flex;
   width: 400px;
-  height: 80px;
-  background-color:white ;
-  border-radius:500px ;
-  margin-bottom:20px;
-  border-left: none;
-  border-bottom-left-radius:none;
+  height:90px;
+  background-color:whitesmoke;
+  border-bottom-left-radius:25px;
+  border-top-left-radius:25px;
+  border-bottom-right-radius:25px;
+  border-top-right-radius:25px;
+
+  margin-bottom:30px;
   justify-content:center;
   align-items:center;
+  margin-left:auto;
+  margin-right:auto;
   box-shadow: 7px 8px 8px lightgrey;               
 }
 
 .cylindrique1:hover
 {
-  background-color:orchid;
+  background:  hsl(267, 59%, 87%);
+
 }
 
 .cylindrique2:hover
@@ -231,25 +243,50 @@ header .block2
   margin-right: 15px;
 
 }
+#coeurplein1,#coeurplein2,#coeurplein3,#coeurplein4
+{
+  display: none;
+  margin-right: 15px;
+}
+#coeurplein1:hover
+{ 
+  display: block;
+  background: linear-gradient(#FF79DA, #9356DC);
+}
+#coeurplein2:hover
+{ 
+  display: block;
+  background: linear-gradient(#FF79DA, #9356DC);
+}
+#coeurplein3:hover
+{
+  display: block;
+  background: linear-gradient(#FF79DA, #9356DC);
+}
+#coeurplein4:hover
+{
+  display: block;
+  background: linear-gradient(#FF79DA, #9356DC);
+}
 
 #coeur1:hover
 {
-  color: blueviolet;
+  display: none;
 }
 
 #coeur2:hover
 {
-  color: blueviolet;
+  display: none;
 }
 
 #coeur3:hover
 {
-  color: blueviolet;
+  display: none;
 }
 
 #coeur4:hover
 {
-  color: blueviolet;
+  display: none;
 }
 
 .card1
@@ -299,6 +336,25 @@ header .block2
 .textdubas
 {
   margin-bottom: 15px;
+}
+.contenant {
+  position: relative;
+  text-align: center;
+  color:#06b78bdd
+}
+
+.texte-etiquette {
+  position: absolute;
+  top: 15%;
+  left: 85%;
+  transform: translate(-50%, -50%);
+  display:flex; 
+  width:85px;
+  height:35px;
+  justify-content: center;                                  
+  background-color:#99E2D0;                                 
+  align-items:center;  
+
 }
 
 #lastcontener
