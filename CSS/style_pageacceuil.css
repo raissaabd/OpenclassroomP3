@@ -235,7 +235,6 @@ align-self: left;
   background:whitesmoke;
   justify-content:center;
   align-items:center;
-  box-shadow: 10px 5px 5px grey;
 }
 #contener3titre
 {
@@ -379,22 +378,23 @@ align-self: left;
 {
   width:auto;
   height:auto;
-  background:darkgrey;
+  background:black;
   justify-content:center;
   align-items: center;
-  box-shadow: 10px 10px 5px grey;
+  box-shadow: 10px 10px 5px grey
 }
 
 footer p 
 {
   color:white;
 }
-
-#ohmyfoodfooter
+footer h1
 {
-  height:25px;
-  align-items: center;
+   color:white;
+   font-family: 'Shrikhand', cursive;
+
 }
+
 
 
 

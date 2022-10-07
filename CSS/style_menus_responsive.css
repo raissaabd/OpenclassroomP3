@@ -36,6 +36,28 @@ header .block1
   margin-right: auto;               
 }
 
+#lastcontener
+{
+  width:auto;
+  height:auto;
+  background:black;
+  justify-content:center;
+  align-items: center;
+  box-shadow: 10px 10px 5px grey
+}
+
+footer p 
+{
+  color:white;
+}
+footer h1
+{
+   color:white;
+   font-family: 'Shrikhand', cursive;
+
+}
+
+
 
 }
 
