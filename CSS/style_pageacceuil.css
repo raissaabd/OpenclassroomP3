@@ -191,18 +191,32 @@ header .block2
 
 .cylindrique1:hover
 {
-  background:  hsl(267, 59%, 87%);
-
+  background:  #f0e7ff;
 }
 
 .cylindrique2:hover
 {
-  background-color:orchid;
-}
+  background:  #f0e7ff;
+}   
 
 .cylindrique3:hover
 {
-  background-color:orchid;
+  background:  #f0e7ff;
+}
+
+#icone1:hover
+{
+  color:#9356DC;
+}
+
+#icone2:hover
+{
+  color:#9356DC;
+}
+
+#icone3:hover
+{
+  color:#9356DC;
 }
 
 .contener2 p
@@ -218,7 +232,7 @@ header .block2
   justify-content: center;
   align-items:center;
   margin-right:20px;
-align-self: left;
+  align-self: left;
   width: 40px; 
   height: 40px;
   font-family: 'Roboto', sans-serif;
@@ -257,34 +271,46 @@ align-self: left;
 }
 #coeur1,#coeur2,#coeur3,#coeur4 
 {
-  margin-right: 15px;
+  padding-right:15px;
+} 
+
+#coeurplein1,#coeurplein2,#coeurplein3,#coeurplein4
+{ 
+  background: linear-gradient(#FF79DA ,#9356DC);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+-moz-background-clip: text;
+-moz-text-fill-color: transparent;
+  padding-right:15px;
+  display: none; 
 
 }
-#coeurplein1,#coeurplein2,#coeurplein3,#coeurplein4
-{
-  display: none;
-  margin-right: 15px;
-}
-#coeurplein1:hover
+
+a :hover + #coeurplein1
+
 { 
   display: block;
-  background: linear-gradient(#FF79DA, #9356DC);
 }
-#coeurplein2:hover
+
+a :hover + #coeurplein2
+
 { 
   display: block;
-  background: linear-gradient(#FF79DA, #9356DC);
 }
-#coeurplein3:hover
-{
+
+a :hover + #coeurplein3
+
+{ 
   display: block;
-  background: linear-gradient(#FF79DA, #9356DC);
 }
-#coeurplein4:hover
-{
+
+a :hover + #coeurplein4
+
+{ 
   display: block;
-  background: linear-gradient(#FF79DA, #9356DC);
 }
+
+
 
 #coeur1:hover
 {
@@ -392,9 +418,9 @@ footer h1
 {
    color:white;
    font-family: 'Shrikhand', cursive;
+   font-size: medium;
 
 }
-
 
 
 
