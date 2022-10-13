@@ -14,23 +14,23 @@ body a
   color: black;
 }
 
-
 header .block1
 {                        
-  width:auto;                 
-  height:95px;
+  width:auto;   
+  padding-top: 23px;              
+  padding-bottom: 17px;                           
   background-color: white;                
   justify-content: center;                  
-  align-items: center;                 
-  box-shadow: 10px 10px 5px grey;
+  align-items: center; 
+  box-shadow: 30px 30px 5px grey; 
+  
+               
 }
 
 #mylogo        
                 
 {         
   height: 40px;              
-  padding-top: 40px;              
-  padding-bottom: 55px;             
   display: block;
   margin-left: auto;              
   margin-right: auto;               
@@ -40,12 +40,10 @@ header .block2
                
 {       
   width: auto;                
-  height:55px;                 
-  background-color: lightgrey;                 
+  background-color: #eaeaea;                 
   justify-content: center;                
   align-items: center;        
-         
-  box-shadow: 10px 10px 5px grey;               
+  color:#353535;
 }
 
 #location      
@@ -67,7 +65,7 @@ header .block2
 
 #ici                         
 { margin-top:20px;
-  margin-left:25px;
+  margin-left:15px;
   font-size:large;
   height:30px;              
 }
@@ -81,17 +79,15 @@ header .block2
 .contener1       
 {                    
   width:auto;
-  height: 360px;                  
   background-color: whitesmoke;                 
   justify-content: center;                 
-  align-items: center;                  
-  box-shadow: 10px 5px 5px grey;
+  align-items: center;  
+  padding-bottom: 30px;                
 }
 
 #accroche
 { 
   padding-top:40px;
-  font-size:xx-large;
   display: flex;
   flex-wrap: wrap;
   font-weight: bolder;
@@ -100,41 +96,50 @@ header .block2
 
 .accrochepart1
 {
-  margin-left: 55px;
+  margin-left:auto;
+  margin-right: auto;
+  padding-right:35px;
+  font-size:x-large;
+
 }
 
 .accrochepart2
 {
-  margin-left: 110px;
+  margin-left:auto;
+  margin-right: auto;
+  padding-right:40px;
+  font-size:x-large;
+
 }
 
 
 #accrocher 
 { 
   padding-top:15px;
-  font-size:x-large;
+  font-size:larger;
   display: flex;
   flex-wrap: wrap;
   font-weight:lighter;
-  margin-left: 45px;
 }
 
 .accrocherpart1
 {
-  margin-left: 35px;
+  margin-left:auto;
+  margin-right: auto;
 }
 
 .accrocherpart2
 {
-  margin-left: 70px;
+  margin-left:auto;
+  margin-right: auto;
 }
 
 
 #cylindre
 {        
   display: flex;
-  width: 330px;
-  height: 60px;
+  width: 300px;
+  height: 65px;
   background-color:white ;
   border-radius:500px ;
   border-left: none;
@@ -147,34 +152,33 @@ header .block2
   margin-left: auto;
   margin-right: auto;
   background: linear-gradient(#FF79DA, #9356DC);
-  box-shadow: 7px 8px 8px lightgrey;               
 }
 
 #Explorer
 {
-  font-size:x-large;
+  font-size:larger;
   color:white;
 }
 .contener2  
 {                    
   width: auto;                   
-  height: 480px;                    
   background: white;                    
-  justify-content: center;    
-  box-shadow: 10px 5px 5px grey;
+  justify-content: center; 
+  padding-top: 25px;
+  padding-bottom: 45px; 
 }
 
 .Titrecontener2
 {
   padding-top: 30px;
   margin-left: 25px;
-  font-size:xx-large;
+  font-size:x-large;
   padding-bottom:30px;
 }
 .cylindrique1,.cylindrique2,.cylindrique3 
 {
   display: flex;
-  width: 400px;
+  width: 380px;
   height:90px;
   background-color:whitesmoke;
   border-bottom-left-radius:25px;
@@ -188,73 +192,72 @@ header .block2
   box-shadow: 7px 8px 8px lightgrey;               
 }
 
+#icone1,#icone2,#icone3
+{
+  color:darkgrey;
+}
+
 
 .cylindrique1:hover
 {
-  background:  #f0e7ff;
+  background:  #f5edff;
+}
+.cylindrique1:hover #icone1
+{
+  color: #9356DC;
 }
 
 .cylindrique2:hover
 {
-  background:  #f0e7ff;
-}   
+  background:  #f5edff;
+} 
+.cylindrique2:hover #icone2
+{
+  color: #9356DC;
+}
 
 .cylindrique3:hover
 {
-  background:  #f0e7ff;
+  background:  #f5edff;
+}
+.cylindrique3:hover #icone3
+{
+  color: #9356DC;
 }
 
-#icone1:hover
-{
-  color:#9356DC;
-}
-
-#icone2:hover
-{
-  color:#9356DC;
-}
-
-#icone3:hover
-{
-  color:#9356DC;
-}
-
-.contener2 p
-{
-  font-size:x-large;
-}
 .rond
 {
   display: flex ;
   background-color:#9356DC;
   color:white;
-  border-radius: 23px;
+  border-radius: 15px;
   justify-content: center;
   align-items:center;
   margin-right:20px;
-  align-self: left;
-  width: 40px; 
-  height: 40px;
+  width: 30px; 
+  height: 30px;
   font-family: 'Roboto', sans-serif;
+  margin-left:-10px;
 }
 
 .titrecylindrique
 {
   margin-left: 20px;
+  font-size: larger;
 }
 
 .contener3
 {
-  height:auto;
   background:whitesmoke;
   justify-content:center;
   align-items:center;
+  padding-top: 65px;
+  padding-bottom: 60px;
 }
 #contener3titre
 {
-  padding-top: 100px;
-  margin-left: 15px;
-  font-size: larger;
+  margin-left: 25px;
+  font-size:larger;
 }
 .contener3 img 
 {
@@ -266,12 +269,13 @@ header .block2
 }
 .contener3 p
 {
-  margin-left: 15px;
-  font-size: larger;
+  margin-left: 25px;
 }
 #coeur1,#coeur2,#coeur3,#coeur4 
 {
-  padding-right:15px;
+  padding-right:25px;
+  margin-top:2px;
+  font-size: x-large;
 } 
 
 #coeurplein1,#coeurplein2,#coeurplein3,#coeurplein4
@@ -282,6 +286,8 @@ header .block2
 -moz-background-clip: text;
 -moz-text-fill-color: transparent;
   padding-right:15px;
+  margin-top:2px;
+  font-size: x-large;
   display: none; 
 
 }
@@ -309,7 +315,6 @@ a :hover + #coeurplein4
 { 
   display: block;
 }
-
 
 
 #coeur1:hover
@@ -348,7 +353,7 @@ a :hover + #coeurplein4
  background-color: white;                                 
  align-items:center;                                  
  box-shadow: 0 0 2em lightgrey;
- margin-left:40px;
+ margin-left:25px;
  margin-bottom: 30px;
 
 } 
@@ -364,8 +369,7 @@ a :hover + #coeurplein4
   background-color: white;                                 
   align-items:center;                                  
   box-shadow: 0 0 2em lightgrey;
-  margin-left:40px;  
-  margin-bottom: 30px;
+  margin-left:25px;  
 
 } 
   
@@ -374,16 +378,18 @@ a :hover + #coeurplein4
   margin-top: 10px;
   display: flex;
   justify-content: space-between;  
+  font-size: larger;
 }
 
 .textdubas
 {
-  margin-bottom: 15px;
+  margin-bottom: 32px;
+  font-weight: lighter;
 }
 .contenant {
   position: relative;
   text-align: center;
-  color:#06b78bdd
+  color:#008766
 }
 
 .texte-etiquette {
@@ -403,23 +409,39 @@ a :hover + #coeurplein4
 #lastcontener
 {
   width:auto;
-  height:auto;
-  background:black;
+  background:#353535;
   justify-content:center;
   align-items: center;
-  box-shadow: 10px 10px 5px grey
+  padding-top: 25px;
+  padding-bottom: 35px;
 }
 
 footer p 
 {
   color:white;
+  margin-left: 30px;
+  margin-top: 15px;
+  font-weight: bolder;
+  padding-left: 5px;
 }
 footer h1
 {
    color:white;
    font-family: 'Shrikhand', cursive;
-   font-size: medium;
+   font-size: larger;
+   margin-left:30px;
+   margin-bottom: 20px;
 
+}
+
+#info1
+{
+  margin-right:6px;
+}
+
+#info2
+{
+  margin-right:2px ;
 }
 
 
