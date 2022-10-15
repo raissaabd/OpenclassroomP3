@@ -1,0 +1,169 @@
+/* @media (min-width:450px) and (max-width:768px) {   
+
+
+    *  { margin: 0px; padding: 0px;   }
+html 
+{
+  font-family: 'Roboto', sans-serif;
+}
+    
+
+body a 
+{  
+  text-decoration: none;
+  color: black;
+}
+
+header .block1
+{                        
+  width:auto;   
+  padding-top: 27px;              
+  padding-bottom: -27px;                           
+  background-color: white;                
+  justify-content: center;                  
+  align-items: center; 
+  
+               
+}
+
+#mylogo        
+                
+{         
+  height: 30px;  
+  margin-top:-30px; 
+  margin-bottom:-45px;           
+  display: block;
+  margin-left: auto;              
+  margin-right: auto;               
+}
+
+#flècheduhaut
+{
+  margin-left: 30px;
+ font-size: x-large;
+}
+
+#image
+{
+  object-fit: cover;
+  width:450px;
+  height: 340px;
+
+}
+
+.boxmenu
+{ 
+  position: relative;
+  text-align:start;
+  justify-content:center;
+  align-items:center;
+  border-top-left-radius:20px;
+  border-top-right-radius:20px;
+  background-color: whitesmoke;
+  margin-top:70px;
+ 
+}
+.titlemenu
+{
+  position:absolute;
+  top: 30%;
+  left:-30%;
+  text-align: center;
+  transform: translate( 30%,-25%);
+  background-color: whitesmoke;
+  border-top-left-radius:40px;
+  border-top-right-radius:40px;
+  width:100%;
+  padding-top: 35px;
+  padding-bottom: 40px;
+  font-family: 'Shrikhand', cursive;
+  font-size: xx-large;
+  font-weight: lighter;
+}
+
+
+#coeur
+{
+  padding-left:45px;
+  padding-right: 15px;
+}
+
+#entrées
+{
+  margin-top: 155px;
+  margin-bottom: 20px;
+  font-size: larger;
+  font-weight: lighter;
+  padding-left: 2%;
+  padding-bottom:5px;
+  border-bottom: 3px solid #99E2D0;
+  position: relative;
+}
+
+
+#lastcontener
+{
+  width:auto;
+  background:#353535;
+  justify-content:center;
+  align-items: center;
+  padding-top: 25px;
+  padding-bottom: 35px;
+}
+
+footer p 
+{
+  color:white;
+  margin-left: 30px;
+  margin-top: 15px;
+  font-weight: bolder;
+  padding-left: 5px;
+}
+footer h1
+{
+   color:white;
+   font-family: 'Shrikhand', cursive;
+   font-size: larger;
+   margin-left:30px;
+   margin-bottom: 20px;
+
+}
+
+#info1
+{
+  margin-right:6px;
+}
+
+#info2
+{
+  margin-right:2px ;
+}
+
+
+
+
+
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

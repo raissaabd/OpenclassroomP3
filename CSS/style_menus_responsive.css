@@ -27,8 +27,8 @@ header .block1
 #mylogo                        
 {         
   height: 30px;  
-  margin-top:-30px; 
-  margin-bottom:-45px;           
+  margin-top:-25px; 
+  margin-bottom:25px;           
   display: block;
   margin-left: auto;              
   margin-right: auto;               
@@ -47,31 +47,24 @@ header .block1
   height: 340px;
 }
 
-/*.boxmenu
+.boxmenu
 { 
-  position: relative;
-  text-align:start;
-  justify-content:center;
-  align-items:center;
-  border-top-left-radius:20px;
-  border-top-right-radius:20px;
-  background-color: whitesmoke;
-  margin-top:70px;
- 
-}*/
+  background-color: whitesmoke; 
+  padding-bottom:50px;
+}
 .titlemenu
 {
   position:absolute;
   top: 30%;
-  left:-32%;
+  left:-30%;
   text-align: center;
   transform: translate( 30%,-32%);
   background-color: whitesmoke;
   border-top-left-radius:60px;
   border-top-right-radius:60px;
   width:100%;
+  margin-top:175px;
   padding-top: 35px;
-  padding-bottom: 40px;
   font-family: 'Shrikhand', cursive;
   font-size: xx-large;
   font-weight: lighter;
@@ -85,37 +78,37 @@ header .block1
 }
 
 
-/*.EntréesCard1,.EntréesCard2,.EntréesCard3
+.EntréesCard,.PlatsCard1,.PlatsCard2,.PlatsCard3,.DessertsCard1,.DessertsCard2,.DessertsCard3
 
 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  font-size:x-large;
+  font-size:larger;
   width: 440px;
-  height:80px;
+  height:90px;
   background-color:white;
   border-bottom-left-radius:25px;
   border-top-left-radius:25px;
   border-bottom-right-radius:25px;
   border-top-right-radius:25px;
   margin-bottom:5px;
-  margin-top:-55px;
+  margin-top:15px;
   align-items:center;
   margin-left:auto;
   margin-right:auto;
   box-shadow: 7px 8px 8px lightgrey;        
-}*/
-.Entrées h3
+}
+.Entrées h3, .Plats h3, .Desserts h3
 {
   padding-right:20px;
-  padding-left: 10px;
+  padding-left: 15px;
 }
 
-.Entrées p
+.Entrées p, .Plats p, .Desserts p
 {
   padding-right:20px;
-  padding-left: 10px;
+  padding-left: 15px;
 }
 #entrées, #plat, #dessert
 {
@@ -126,7 +119,29 @@ header .block1
   padding-bottom:5px;
   position: relative;
   padding-left: 15px;
+  border-bottom: 3px solid #99E2D0;
+}
 
+.commander
+{        
+  display: flex;
+  width: 220px;
+  height: 65px;
+  background-color:white ;
+  border-radius:500px ;
+  border-left: none;
+  border-bottom-left-radius:none;
+  margin-right: 30px;
+  justify-content:center;
+  align-items:center;
+  margin-top: 55px;
+  margin-bottom:85px;
+  margin-left: auto;
+  margin-right: auto;
+  background: linear-gradient(#FF79DA, #9356DC);
+  color: white;
+  font-size: larger;
+  
 }
 
 #lastcontener
@@ -137,6 +152,7 @@ header .block1
   align-items: center;
   padding-top: 25px;
   padding-bottom: 35px;
+  margin-top: -80px;
 }
 
 footer p 
