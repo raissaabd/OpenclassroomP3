@@ -81,58 +81,26 @@ header .block2
   background-color: whitesmoke;                 
   justify-content: center;                 
   align-items: center;  
-  padding-bottom: 30px;                
+  padding-bottom: 10px;                
 }
 
 #accroche
 { 
   padding-top:40px;
-  display: flex;
-  flex-wrap: wrap;
   font-weight: bolder;
-  margin-left: 45px;
+  font-size: xx-large;
+  text-align: center;
+  margin-left: 70px;
+  margin-right: 70px;
 }
-
-.accrochepart1
-{
-  margin-left:auto;
-  margin-right: auto;
-  padding-right:35px;
-  font-size:x-large;
-
-}
-
-.accrochepart2
-{
-  margin-left:auto;
-  margin-right: auto;
-  padding-right:40px;
-  font-size:x-large;
-
-}
-
 
 #accrocher 
 { 
   padding-top:15px;
-  font-size:larger;
-  display: flex;
-  flex-wrap: wrap;
+  font-size:x-large;
   font-weight:lighter;
+  text-align: center;
 }
-
-.accrocherpart1
-{
-  margin-left:auto;
-  margin-right: auto;
-}
-
-.accrocherpart2
-{
-  margin-left:auto;
-  margin-right: auto;
-}
-
 
 #cylindre
 {        
@@ -414,6 +382,12 @@ a :hover + #coeurplein4
   padding-top: 25px;
   padding-bottom: 35px;
 }
+#lastcontener a
+{
+  text-decoration: none;
+  color: white;
+}
+
 
 footer p 
 {
@@ -432,6 +406,12 @@ footer h1
    margin-bottom: 20px;
 
 }
+
+footer p
+{
+  font-weight: lighter;
+}
+
 
 #info1
 {
