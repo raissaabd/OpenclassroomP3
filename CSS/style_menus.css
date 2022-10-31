@@ -76,9 +76,33 @@ header .block1
 }*/
 
 #coeur
-{
+{ 
   padding-left:45px;
-  padding-right: 15px;
+  padding-right:15px;
+}
+
+#coeurplein
+{ 
+  background: linear-gradient(#FF79DA ,#9356DC);
+  -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+ -moz-background-clip: text;
+ -moz-text-fill-color: transparent;
+  padding-right:15px;
+  padding-left:45px;
+  font-size: x-large;
+  display: none; 
+}
+
+a :hover + #coeurplein
+{ 
+  display: block;
+}
+
+
+#coeur:hover
+{
+  display: none;
 }
 
 
@@ -101,24 +125,34 @@ header .block1
   align-items:center;
   margin-left:auto;
   margin-right:auto;
-  box-shadow: 7px 8px 8px lightgrey;  
-      
+  box-shadow: 7px 8px 8px lightgrey;
 }
+ /*.carrévert:hover{
+    margin-left: -150px;
+  }*/
+
+  
+  .EntréesCard:active .carrévert
+  {
+    margin-left: -75px;
+  }
+  
 
 .carrévert
 {
  display: flex;
- flex-direction: left;
  justify-content: center;
- align-items: center;
+ align-items: center;    margin-right:-50px;
+
  background-color:#99E2D0;
  width:70px;
  height: 90px;
  border-top-right-radius:25px;
  border-bottom-right-radius: 25px;
- align-self: flex-end;
- margin-bottom: 16px;
- display: none;
+ position:absolute;
+ left: 455px;
+ transition-duration: .5s;
+
 }
 
 .rondblanc
@@ -136,10 +170,7 @@ header .block1
   color: #99E2D0;
 }  
 
-.boxmenu:hover .carrévert
-{
-  margin-right: -16px;
-}
+
 .Entrées h3, .Plats h3, .Desserts h3
 {
   padding-right:20px;
@@ -189,8 +220,16 @@ header .block1
   background: linear-gradient(#FF79DA, #9356DC);
   color: white;
   font-size: larger;
-  
+  box-shadow: 4px 4px 10px rgb(0 0 0 /40%);
 }
+
+#bouton :hover
+
+{ 
+  background: linear-gradient(#f0a1db, #c19cef);
+  box-shadow: 4px 4px 10px rgb(0 0 0/80%);
+}
+
 
 #lastcontener
 {

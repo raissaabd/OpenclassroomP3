@@ -26,7 +26,11 @@
   width:591px;
   height: 197px;
 }
-
+.lescards
+{
+  display:flex;
+  flex-wrap: wrap;
+}
 .card1,.card2,.card3 
 {        
  display:flex; 
@@ -40,8 +44,7 @@
  box-shadow: 0 0 2em lightgrey;
  margin-left:auto;
  margin-right: auto;
- margin-bottom: 30px;
-
+ 
 } 
 
 .card4 
