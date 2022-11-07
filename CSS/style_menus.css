@@ -132,9 +132,9 @@ a :hover + #coeurplein
   }*/
 
   
-  .EntréesCard:active .carrévert
+  .EntréesCard:hover .carrévert
   {
-    margin-left: -75px;
+    overflow: visible;
   }
   
 
@@ -143,7 +143,6 @@ a :hover + #coeurplein
  display: flex;
  justify-content: center;
  align-items: center;    margin-right:-50px;
-
  background-color:#99E2D0;
  width:70px;
  height: 90px;
@@ -151,8 +150,8 @@ a :hover + #coeurplein
  border-bottom-right-radius: 25px;
  position:absolute;
  left: 455px;
+ overflow: hidden;
  transition-duration: .5s;
-
 }
 
 .rondblanc
