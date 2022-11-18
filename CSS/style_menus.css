@@ -68,13 +68,6 @@ header .block1
   font-weight: lighter;
 }
 
-/*.lignebastxtmenu
-
-{
-  margin-left: 120px;
-
-}*/
-
 #coeur
 { 
   padding-left:45px;
@@ -96,21 +89,18 @@ header .block1
 
 a :hover + #coeurplein
 { 
-  display: block;
+  display: inline;
 }
-
 
 #coeur:hover
 {
   display: none;
 }
 
-
-.EntréesCard,.PlatsCard1,.PlatsCard2,.PlatsCard3,.DessertsCard1,.DessertsCard2,.DessertsCard3
-
+.EntréesCard,.PlatsCard,.DessertsCard
 {
   display: flex;
-  flex-wrap: wrap;
+  overflow: hidden;
   justify-content: space-between;
   font-size:larger;
   width: 440px;
@@ -125,35 +115,74 @@ a :hover + #coeurplein
   align-items:center;
   margin-left:auto;
   margin-right:auto;
+  cursor: pointer;
+  text-overflow: ellipsis;
   box-shadow: 7px 8px 8px lightgrey;
 }
- /*.carrévert:hover{
-    margin-left: -150px;
-  }*/
+  
+.EntréesCard:hover .carrévert
+{
+  overflow: visible;
+  margin-right: 0px;
+}
+.EntréesCard:hover .carrévert #Validation
+{
+  transform: rotate(1turn);
+  transition: transform 1s;
+}
 
-  
-  .EntréesCard:hover .carrévert
-  {
-    overflow: visible;
-  }
-  
+.PlatsCard:hover .carrévert
+{
+  overflow: visible;
+  margin-right: 0px;
+}
+.PlatsCard:hover .carrévert #Validation
+{
+  transform: rotate(1turn);
+  transition: transform 1s;
+}
+
+.DessertsCard:hover .carrévert
+{
+  overflow: visible;
+  margin-right: 0px;
+}
+.DessertsCard:hover .carrévert #Validation
+{
+  transform: rotate(1turn);
+  transition: transform 1s;
+}
+
+.texteplat
+{
+  display: flex;
+  flex-direction: column;
+}
+
+.prixetcarrévert
+{
+  display: flex;
+}
 
 .carrévert
 {
  display: flex;
  justify-content: center;
- align-items: center;    margin-right:-50px;
+ align-items: center; 
+margin-right:-70px;
  background-color:#99E2D0;
  width:70px;
  height: 90px;
  border-top-right-radius:25px;
  border-bottom-right-radius: 25px;
- position:absolute;
- left: 455px;
  overflow: hidden;
  transition-duration: .5s;
 }
-
+.prix
+{
+  padding-top: 50px;
+  padding-right: 25px;
+}
 .rondblanc
 {
  display:flex;
@@ -174,12 +203,14 @@ a :hover + #coeurplein
 {
   padding-right:20px;
   padding-left: 15px;
+  padding-bottom: 10px;
 }
 
 .Entrées p, .Plats p, .Desserts p
 {
   padding-right:20px;
   padding-left: 15px;
+  font-weight: lighter;
 }
 #entrées, #plat, #dessert
 {
