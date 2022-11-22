@@ -128,7 +128,7 @@ a :hover + #coeurplein
 .EntréesCard:hover .carrévert #Validation
 {
   transform: rotate(1turn);
-  transition: transform 1s;
+  transition: transform .6s;
 }
 
 .PlatsCard:hover .carrévert
@@ -139,7 +139,7 @@ a :hover + #coeurplein
 .PlatsCard:hover .carrévert #Validation
 {
   transform: rotate(1turn);
-  transition: transform 1s;
+  transition: transform .6s;
 }
 
 .DessertsCard:hover .carrévert
@@ -150,7 +150,7 @@ a :hover + #coeurplein
 .DessertsCard:hover .carrévert #Validation
 {
   transform: rotate(1turn);
-  transition: transform 1s;
+  transition: transform .6s;
 }
 
 .texteplat
