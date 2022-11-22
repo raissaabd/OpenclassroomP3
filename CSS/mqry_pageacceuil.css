@@ -14,6 +14,7 @@
 #les3cylindriques
 {                  
   display: flex;
+  flex-wrap: wrap;
 }
 .cylindrique1,.cylindrique2,.cylindrique3 
 {
@@ -58,6 +59,7 @@
 .lescards
 {
   display:flex;
+  flex-wrap: wrap;
   
 }
 
