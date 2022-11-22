@@ -50,6 +50,38 @@ header .block1
   background-color: whitesmoke; 
   padding-bottom:50px;
 }
+/*.whitepageformymenueffect
+{
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  background-color: white;
+  animation: blanc 3s;
+  animation-delay: 3s;
+  animation-fill-mode: both;
+  z-index: 10000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@keyframes blanc
+{
+  0% {
+      visibility: visible;
+      opacity: 100;
+      z-index: 9999;
+     }
+ 50% {
+      opacity: 100;
+    }
+100% { visibility: hidden;
+          opacity: 0; 
+          z-index: -10;
+        }   
+
+}*/
 .titlemenu
 {
   position:absolute;
@@ -119,6 +151,77 @@ a :hover + #coeurplein
   text-overflow: ellipsis;
   box-shadow: 7px 8px 8px lightgrey;
 }
+.EntréesCard,.PlatsCard,.DessertsCard
+{
+  animation: apparition .5s;
+  animation-delay: .5s;
+  animation-fill-mode: both;
+  z-index: 10000;
+}
+@keyframes apparition
+{
+  100% {
+      visibility: visible;
+      opacity: 100;
+      z-index: 9999;
+     }
+ 50% {
+      opacity: 50;
+    }
+0% { visibility: hidden;
+          opacity: 0; 
+          z-index: -10;
+        }   
+
+}
+
+.PlatsCard
+{
+  animation: apparition .7s;
+  animation-delay: .7s;
+  animation-fill-mode: both;
+  z-index: 10000;
+}
+@keyframes apparition
+{
+  100% {
+      visibility: visible;
+      opacity: 100;
+      z-index: 9999;
+     }
+ 50% {
+      opacity: 50;
+    }
+0% { visibility: hidden;
+          opacity: 0; 
+          z-index: -10;
+        }   
+
+}
+.DessertsCard
+{
+  animation: apparition .9s;
+  animation-delay: .9s;
+  animation-fill-mode: both;
+  z-index: 10000;
+}
+@keyframes apparition
+{
+  100% {
+      visibility: visible;
+      opacity: 100;
+      z-index: 9999;
+     }
+ 50% {
+      opacity: 50;
+    }
+0% { visibility: hidden;
+          opacity: 0; 
+          z-index: -10;
+        }   
+
+}
+
   
 .EntréesCard:hover .carrévert
 {
