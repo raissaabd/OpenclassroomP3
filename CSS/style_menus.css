@@ -50,38 +50,6 @@ header .block1
   background-color: whitesmoke; 
   padding-bottom:50px;
 }
-/*.whitepageformymenueffect
-{
-  position: fixed;
-  height: 100%;
-  width: 100%;
-  left: 0;
-  top: 0;
-  background-color: white;
-  animation: blanc 3s;
-  animation-delay: 3s;
-  animation-fill-mode: both;
-  z-index: 10000;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-@keyframes blanc
-{
-  0% {
-      visibility: visible;
-      opacity: 100;
-      z-index: 9999;
-     }
- 50% {
-      opacity: 100;
-    }
-100% { visibility: hidden;
-          opacity: 0; 
-          z-index: -10;
-        }   
-
-}*/
 .titlemenu
 {
   position:absolute;

@@ -23,15 +23,48 @@
   object-fit: cover;
   border-top-left-radius:20px;
   border-top-right-radius:20px;
-  width:591px;
+  width:290px;
   height: 197px;
 }
 .lescards
 {
   display:flex;
-  flex-wrap: wrap;
+  
 }
+
 .card1,.card2,.card3 
+{        
+ display:flex; 
+ width:290px;
+ height:260px;
+ border:none;                                
+ border-radius: 20px;                                  
+ justify-items: center;                                  
+ background-color: white;                                 
+ align-items:center;                                  
+ box-shadow: 0 0 2em lightgrey;
+ margin-left:25px;
+ margin-bottom: 0px;
+
+} 
+
+.card4 
+{        
+  display:flex; 
+  width:290px;
+  height:260px;
+  border:none;                                
+  border-radius: 20px;                                  
+  justify-items: center;                                  
+  background-color: white;                                 
+  align-items:center;                                  
+  box-shadow: 0 0 2em lightgrey;
+  margin-left:25px;  
+
+} 
+
+
+/*.card1,.card2,.card3 
 {        
  display:flex; 
  width:590px;
@@ -61,7 +94,7 @@
   margin-left:auto;  
   margin-right: auto;
 
-} 
+} */
 
     
   }
