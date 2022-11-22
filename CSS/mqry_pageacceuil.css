@@ -3,6 +3,35 @@
   @media only screen and (min-width : 991px) { 
 
     *  { margin: 0px; padding: 0px;   } 
+
+.Titrecontener2
+{
+  padding-top: 30px;
+  margin-left: 25px;
+  font-size:x-large;
+  padding-bottom:30px;
+}
+#les3cylindriques
+{                  
+  display: flex;
+}
+.cylindrique1,.cylindrique2,.cylindrique3 
+{
+  display: flex;
+  width: 380px;
+  height:90px;
+  background-color:whitesmoke;
+  border-bottom-left-radius:25px;
+  border-top-left-radius:25px;
+  border-bottom-right-radius:25px;
+  border-top-right-radius:25px;
+  margin-bottom:30px;
+  align-items:center;
+  margin-left:auto;
+  margin-right:auto;
+  box-shadow: 7px 8px 8px lightgrey;               
+}
+    
 .contener3
 {
   background:whitesmoke;
@@ -23,7 +52,7 @@
   object-fit: cover;
   border-top-left-radius:20px;
   border-top-right-radius:20px;
-  width:290px;
+  width:355px;
   height: 197px;
 }
 .lescards
@@ -32,10 +61,10 @@
   
 }
 
-.card1,.card2,.card3 
+.card1,.card2,.card3,.card4 
 {        
  display:flex; 
- width:290px;
+ width:355px;
  height:260px;
  border:none;                                
  border-radius: 20px;                                  
@@ -45,56 +74,8 @@
  box-shadow: 0 0 2em lightgrey;
  margin-left:25px;
  margin-bottom: 0px;
+ margin-top: 30px;
 
 } 
-
-.card4 
-{        
-  display:flex; 
-  width:290px;
-  height:260px;
-  border:none;                                
-  border-radius: 20px;                                  
-  justify-items: center;                                  
-  background-color: white;                                 
-  align-items:center;                                  
-  box-shadow: 0 0 2em lightgrey;
-  margin-left:25px;  
-
-} 
-
-
-/*.card1,.card2,.card3 
-{        
- display:flex; 
- width:590px;
- height:260px;
- border:none;                                
- border-radius: 20px;                                  
- justify-items: center;                                  
- background-color: white;                                 
- align-items:center;                                  
- box-shadow: 0 0 2em lightgrey;
- margin-left:auto;
- margin-right: auto;
- 
-} 
-
-.card4 
-{        
-  display:flex; 
-  width:590px;
-  height:260px;
-  border:none;                                
-  border-radius: 20px;                                  
-  justify-items: center;                                  
-  background-color: white;                                 
-  align-items:center;                                  
-  box-shadow: 0 0 2em lightgrey;
-  margin-left:auto;  
-  margin-right: auto;
-
-} */
-
     
   }
