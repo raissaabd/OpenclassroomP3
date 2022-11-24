@@ -121,8 +121,8 @@ a :hover + #coeurplein
 }
 .EntréesCard,.PlatsCard,.DessertsCard
 {
-  animation: apparition 2s;
-  animation-delay: 2s;
+  animation: apparition 3s;
+  animation-delay: 3s;
   animation-fill-mode: both;
   z-index: 10000;
 }
@@ -145,8 +145,8 @@ a :hover + #coeurplein
 
 .PlatsCard
 {
-  animation: apparition 3s;
-  animation-delay: 3s;
+  animation: apparition 4s;
+  animation-delay: 4s;
   animation-fill-mode: both;
   z-index: 10000;
 }
@@ -168,8 +168,8 @@ a :hover + #coeurplein
 }
 .DessertsCard
 {
-  animation: apparition 4s;
-  animation-delay: 4s;
+  animation: apparition 5s;
+  animation-delay: 5s;
   animation-fill-mode: both;
   z-index: 10000;
 }
