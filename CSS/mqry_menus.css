@@ -1,0 +1,13 @@
+  /* La version desktop des pages menus*/
+  
+  @media only screen and (min-width : 991px) { 
+
+    *  { margin: 0px; padding: 0px;   } 
+
+.lescards
+{ 
+  display: flex;
+  flex-wrap: wrap;
+}
+
+}
