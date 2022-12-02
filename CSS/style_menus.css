@@ -118,7 +118,9 @@ a :hover + #coeurplein
   cursor: pointer;
   text-overflow: ellipsis;
   box-shadow: 7px 8px 8px lightgrey;
+
 }
+
 .EntréesCard,.PlatsCard,.DessertsCard
 {
   animation: apparition 3s;
@@ -228,6 +230,9 @@ a :hover + #coeurplein
 {
   display: flex;
   flex-direction: column;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .prixetcarrévert
@@ -240,7 +245,7 @@ a :hover + #coeurplein
  display: flex;
  justify-content: center;
  align-items: center; 
-margin-right:-70px;
+ margin-right:-70px;
  background-color:#99E2D0;
  width:70px;
  height: 90px;
@@ -272,6 +277,9 @@ margin-right:-70px;
 
 .Entrées h3, .Plats h3, .Desserts h3
 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
   padding-right:20px;
   padding-left: 15px;
   padding-bottom: 10px;
@@ -279,6 +287,9 @@ margin-right:-70px;
 
 .Entrées p, .Plats p, .Desserts p
 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
   padding-right:20px;
   padding-left: 15px;
   font-weight: lighter;
@@ -290,6 +301,7 @@ margin-right:-70px;
   font-weight: lighter;
   padding-bottom:5px;
   position: relative;
+  
   padding-left: 15px;
 
 }

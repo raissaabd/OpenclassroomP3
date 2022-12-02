@@ -1,0 +1,411 @@
+
+    *  { margin: 0px; padding: 0px;   }
+html 
+{
+  font-family: 'Roboto', sans-serif;
+}
+    
+
+body a 
+{  
+  text-decoration: none;
+  color: black;
+}
+
+header .block1
+{                        
+  width:auto;   
+  padding-top: 27px;              
+  padding-bottom: -27px;                           
+  background-color: white;                
+  justify-content: center;                  
+  align-items: center;                  
+}
+
+#mylogo                        
+{         
+  height: 30px;  
+  margin-top:-25px; 
+  margin-bottom:25px;           
+  display: block;
+  margin-left: auto;              
+  margin-right: auto;               
+}
+
+#flècheduhaut
+{
+  margin-left: 30px;
+ font-size: x-large;
+}
+
+#image
+{
+  object-fit: cover;
+  width:100%;
+  height: 340px;
+}
+
+.boxmenu
+{ 
+  background-color: whitesmoke; 
+  padding-bottom:50px;
+}
+.titlemenu
+{
+  position:absolute;
+  top: 30%;
+  left:-30%;
+  text-align: center;
+  transform: translate( 30%,-32%);
+  background-color: whitesmoke;
+  border-top-left-radius:60px;
+  border-top-right-radius:60px;
+  width:100%;
+  margin-top:175px;
+  padding-top: 40px;
+  font-family: 'Shrikhand', cursive;
+  font-size: xx-large;
+  font-weight: lighter;
+}
+
+#coeur
+{ 
+  padding-left:45px;
+  padding-right:15px;
+}
+
+#coeurplein
+{ 
+  background: linear-gradient(#FF79DA ,#9356DC);
+  -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+ -moz-background-clip: text;
+ -moz-text-fill-color: transparent;
+  padding-right:15px;
+  padding-left:45px;
+  font-size: x-large;
+  display: none; 
+}
+
+a :hover + #coeurplein
+{ 
+  display: inline;
+}
+
+#coeur:hover
+{
+  display: none;
+}
+
+.EntréesCard,.PlatsCard,.DessertsCard
+{
+  display: flex;
+  overflow: hidden;
+  justify-content: space-between;
+  font-size:larger;
+  width: 440px;
+  height:90px;
+   background-color:white;
+  border-bottom-left-radius:25px;
+  border-top-left-radius:25px;
+  border-bottom-right-radius:25px;
+  border-top-right-radius:25px;
+  margin-bottom:5px;
+  margin-top:15px;
+  align-items:center;
+  margin-left:auto;
+  margin-right:auto;
+  cursor: pointer;
+  text-overflow: ellipsis;
+  box-shadow: 7px 8px 8px lightgrey;
+}
+.EntréesCard,.PlatsCard,.DessertsCard
+{
+  animation: apparition 3s;
+  animation-delay: 3s;
+  animation-fill-mode: both;
+  z-index: 10000;
+}
+@keyframes apparition
+{
+  100% {
+      visibility: visible;
+      opacity: 100;
+      z-index: 9999;
+     }
+ 50% {
+      opacity: 50;
+    }
+0% { visibility: hidden;
+          opacity: 0; 
+          z-index: -10;
+        }   
+
+}
+
+.PlatsCard
+{
+  animation: apparition 4s;
+  animation-delay: 4s;
+  animation-fill-mode: both;
+  z-index: 10000;
+}
+@keyframes apparition
+{
+  100% {
+      visibility: visible;
+      opacity: 100;
+      z-index: 9999;
+     }
+ 50% {
+      opacity: 50;
+    }
+0% { visibility: hidden;
+          opacity: 0; 
+          z-index: -10;
+        }   
+
+}
+.DessertsCard
+{
+  animation: apparition 5s;
+  animation-delay: 5s;
+  animation-fill-mode: both;
+  z-index: 10000;
+}
+@keyframes apparition
+{
+  100% {
+      visibility: visible;
+      opacity: 100;
+      z-index: 9999;
+     }
+ 50% {
+      opacity: 50;
+    }
+0% { visibility: hidden;
+          opacity: 0; 
+          z-index: -10;
+        }   
+
+}
+
+  
+.EntréesCard:hover .carrévert
+{
+  overflow: visible;
+  margin-right: 0px;
+}
+.EntréesCard:hover .carrévert #Validation
+{
+  transform: rotate(1turn);
+  transition: transform .6s;
+}
+
+.PlatsCard:hover .carrévert
+{
+  overflow: visible;
+  margin-right: 0px;
+}
+.PlatsCard:hover .carrévert #Validation
+{
+  transform: rotate(1turn);
+  transition: transform .6s;
+}
+
+.DessertsCard:hover .carrévert
+{
+  overflow: visible;
+  margin-right: 0px;
+}
+.DessertsCard:hover .carrévert #Validation
+{
+  transform: rotate(1turn);
+  transition: transform .6s;
+}
+
+.texteplat
+{
+  display: flex;
+  flex-direction: column;
+}
+
+.prixetcarrévert
+{
+  display: flex;
+}
+
+.carrévert
+{
+ display: flex;
+ justify-content: center;
+ align-items: center; 
+margin-right:-70px;
+ background-color:#99E2D0;
+ width:70px;
+ height: 90px;
+ border-top-right-radius:25px;
+ border-bottom-right-radius: 25px;
+ overflow: hidden;
+ transition-duration: .5s;
+}
+.prix
+{
+  padding-top: 50px;
+  padding-right: 25px;
+}
+.rondblanc
+{
+ display:flex;
+ background-color: white;
+ border-radius: 15px;
+ justify-content: center;
+ align-items: center;
+ width:30px;
+ height: 30px;
+}
+#Validation
+{
+  color: #99E2D0;
+}  
+
+
+.Entrées h3, .Plats h3, .Desserts h3
+{
+  padding-right:20px;
+  padding-left: 15px;
+  padding-bottom: 10px;
+}
+
+.Entrées p, .Plats p, .Desserts p
+{
+  padding-right:20px;
+  padding-left: 15px;
+  font-weight: lighter;
+}
+#entrées, #plat, #dessert
+{
+  margin-top: 30px;
+  font-size: larger;
+  font-weight: lighter;
+  padding-bottom:5px;
+  position: relative;
+  padding-left: 15px;
+
+}
+
+.traitvert
+{
+  border-top:4px solid #99E2D0;
+  width:45px;
+  margin-top:1px;
+  margin-left:15px;
+}
+
+.commander
+{        
+  display: flex;
+  width: 220px;
+  height: 65px;
+  background-color:white ;
+  border-radius:500px ;
+  border-left: none;
+  border-bottom-left-radius:none;
+  margin-right: 30px;
+  justify-content:center;
+  align-items:center;
+  margin-top: 55px;
+  margin-bottom:85px;
+  margin-left: auto;
+  margin-right: auto;
+  background: linear-gradient(#FF79DA, #9356DC);
+  color: white;
+  font-size: larger;
+  box-shadow: 4px 4px 10px rgb(0 0 0 /40%);
+}
+
+#bouton :hover
+
+{ 
+  background: linear-gradient(#f0a1db, #c19cef);
+  box-shadow: 4px 4px 10px rgb(0 0 0/80%);
+}
+
+
+#lastcontener
+{
+  width:auto;
+  background:#353535;
+  justify-content:center;
+  align-items: center;
+  padding-top: 25px;
+  padding-bottom: 35px;
+  margin-top: -80px;
+}
+#lastcontener a
+{
+  text-decoration: none;
+  color: white;
+}
+
+footer p 
+{
+  color:white;
+  margin-left: 30px;
+  margin-top: 15px;
+  font-weight: bolder;
+  padding-left: 5px;
+}
+footer h1
+{
+   color:white;
+   font-family: 'Shrikhand', cursive;
+   font-size: larger;
+   margin-left:30px;
+   margin-bottom: 20px;
+
+}
+
+footer p
+
+{
+  font-weight: lighter;
+}
+
+
+#info1
+{
+  margin-right:6px;
+}
+
+#info2
+{
+  margin-right:2px ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
