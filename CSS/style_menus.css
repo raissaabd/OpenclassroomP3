@@ -50,6 +50,18 @@ header .block1
   background-color: whitesmoke; 
   padding-bottom:50px;
 }
+.laboitedesmenus
+{
+position: relative;
+top:-50%;
+padding-left: 4%;
+padding-right: 7%;
+background-color: red;
+border-top-left-radius: 40px;
+border-top-right-radius: 40px;
+display: none;
+
+}
 .titlemenu
 {
   position:absolute;
@@ -119,6 +131,13 @@ a :hover + #coeurplein
   text-overflow: ellipsis;
   box-shadow: 7px 8px 8px lightgrey;
 
+}
+
+.EntréesCard,.PlatsCard,.DessertsCard
+{
+  animation: tile-apparition 2s;
+  animation-fill-mode: forwards;
+  animation-delay: 700ms;
 }
 
 .EntréesCard,.PlatsCard,.DessertsCard
