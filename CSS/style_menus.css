@@ -50,21 +50,9 @@ header .block1
   background-color: whitesmoke; 
   padding-bottom:50px;
 }
-.laboitedesmenus
-{
-position: relative;
-top:-50%;
-padding-left: 4%;
-padding-right: 7%;
-background-color: red;
-border-top-left-radius: 40px;
-border-top-right-radius: 40px;
-display: none;
-
-}
 .titlemenu
 {
-  position:absolute;
+  position:relative;
   top: 30%;
   left:-30%;
   text-align: center;
@@ -73,7 +61,7 @@ display: none;
   border-top-left-radius:60px;
   border-top-right-radius:60px;
   width:100%;
-  margin-top:175px;
+  margin-top:-50px;
   padding-top: 40px;
   font-family: 'Shrikhand', cursive;
   font-size: xx-large;
@@ -130,41 +118,41 @@ a :hover + #coeurplein
   cursor: pointer;
   text-overflow: ellipsis;
   box-shadow: 7px 8px 8px lightgrey;
-
+  background-color: white;
 }
-
-.EntréesCard,.PlatsCard,.DessertsCard
+.Card1
 {
-  animation: tile-apparition 2s;
-  animation-fill-mode: forwards;
-  animation-delay: 700ms;
+  margin-top: 25px;
 }
 
 .EntréesCard,.PlatsCard,.DessertsCard
+{ 
+  transition: transform 15s;
+}
+.Card1
+{
+  animation: apparition 1s;
+  animation-delay: 1s;
+  animation-fill-mode: both;
+  z-index: 10000;
+
+}
+.Card2
+{
+  animation: apparition 2s;
+  animation-delay: 2s;
+  animation-fill-mode: both;
+  z-index: 10000;
+
+}
+.Card3
 {
   animation: apparition 3s;
   animation-delay: 3s;
   animation-fill-mode: both;
   z-index: 10000;
 }
-@keyframes apparition
-{
-  100% {
-      visibility: visible;
-      opacity: 100;
-      z-index: 9999;
-     }
- 50% {
-      opacity: 50;
-    }
-0% { visibility: hidden;
-          opacity: 0; 
-          z-index: -10;
-        }   
-
-}
-
-.PlatsCard
+.Card4
 {
   animation: apparition 4s;
   animation-delay: 4s;
@@ -173,45 +161,20 @@ a :hover + #coeurplein
 }
 @keyframes apparition
 {
-  100% {
-      visibility: visible;
-      opacity: 100;
-      z-index: 9999;
+
+ 100% {
+      
+      opacity: 1;
+      transform: translateY(-10px);
+
      }
- 50% {
-      opacity: 50;
-    }
-0% { visibility: hidden;
-          opacity: 0; 
-          z-index: -10;
-        }   
+ 
+ 0% { 
+     opacity: 0; 
+     transform: translateY(0px);
+  }   
 
 }
-.DessertsCard
-{
-  animation: apparition 5s;
-  animation-delay: 5s;
-  animation-fill-mode: both;
-  z-index: 10000;
-}
-@keyframes apparition
-{
-  100% {
-      visibility: visible;
-      opacity: 100;
-      z-index: 9999;
-     }
- 50% {
-      opacity: 50;
-    }
-0% { visibility: hidden;
-          opacity: 0; 
-          z-index: -10;
-        }   
-
-}
-
-  
 .EntréesCard:hover .carrévert
 {
   overflow: visible;
