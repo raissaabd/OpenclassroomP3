@@ -11,3 +11,46 @@
 }
 
 }
+/* La version mobile revisité de la page d'acceuil de 320px à 350px*/
+@media screen and (min-width:320px) and (max-width:350px) 
+{
+
+.EntréesCard,.PlatsCard,.DessertsCard
+{
+  width:310px;
+}
+
+}
+
+/* La version mobile revisité de la page d'acceuil de 350px à 380px*/
+@media screen and (min-width:350px) and (max-width:380px) 
+{
+
+.EntréesCard,.PlatsCard,.DessertsCard
+{
+  width:340px ;
+}
+
+}
+
+/* La version mobile revisité de la page d'acceuil de 350px à 415px*/
+@media screen and (min-width:380px) and (max-width:420px) 
+{
+
+.EntréesCard,.PlatsCard,.DessertsCard
+{
+  width: 370px;
+}
+
+}
+
+/* La version mobile revisité de la page d'acceuil de 420px à 450px*/
+@media screen and (min-width:420px) and (max-width:450px) 
+{
+
+.EntréesCard,.PlatsCard,.DessertsCard
+{
+  width: 400px;
+}
+
+}
