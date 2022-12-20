@@ -159,6 +159,49 @@ a :hover + #coeurplein
   animation-fill-mode: both;
   z-index: 10000;
 }
+.Card5
+{
+  animation: apparition 5s;
+  animation-delay: 5s;
+  animation-fill-mode: both;
+  z-index: 10000;
+}
+.Card6
+{
+  animation: apparition 6s;
+  animation-delay: 6s;
+  animation-fill-mode: both;
+  z-index: 10000;
+}
+.Card7
+{
+  animation: apparition 7s;
+  animation-delay: 7s;
+  animation-fill-mode: both;
+  z-index: 10000;
+}
+.Card8
+{
+  animation: apparition 8s;
+  animation-delay: 8s;
+  animation-fill-mode: both;
+  z-index: 10000;
+}
+.Card9
+{
+  animation: apparition 9s;
+  animation-delay: 9s;
+  animation-fill-mode: both;
+  z-index: 10000;
+}
+.Card10
+{
+  animation: apparition 10s;
+  animation-delay: 10s;
+  animation-fill-mode: both;
+  z-index: 10000;
+}
+
 @keyframes apparition
 {
 
@@ -180,7 +223,7 @@ a :hover + #coeurplein
   overflow: visible;
   margin-right: 0px;
 }
-.EntréesCard:hover .carrévert #Validation
+.EntréesCard:hover .carrévert .Validation
 {
   transform: rotate(1turn);
   transition: transform .6s;
@@ -191,7 +234,7 @@ a :hover + #coeurplein
   overflow: visible;
   margin-right: 0px;
 }
-.PlatsCard:hover .carrévert #Validation
+.PlatsCard:hover .carrévert .Validation
 {
   transform: rotate(1turn);
   transition: transform .6s;
@@ -202,7 +245,7 @@ a :hover + #coeurplein
   overflow: visible;
   margin-right: 0px;
 }
-.DessertsCard:hover .carrévert #Validation
+.DessertsCard:hover .carrévert .Validation
 {
   transform: rotate(1turn);
   transition: transform .6s;
@@ -251,7 +294,7 @@ a :hover + #coeurplein
  width:30px;
  height: 30px;
 }
-#Validation
+.Validation
 {
   color: #99E2D0;
 }  

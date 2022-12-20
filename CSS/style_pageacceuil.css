@@ -13,42 +13,6 @@ body a
   color: black;
 }
 
- /*.charger
- {
-  width: 80px;
-  height: 80px;
-  display: none;
-  margin: 200px auto;
-  border-radius: 60px;
-  border-top: 4px solid #9356DC;
-  border-right: 4px solid rgba(91, 25, 93, 0.4);
-  border-bottom: 4px solid #9356DC;
-  border-left: 4px solid rgba(91, 25, 93, 0.4);
-  animation-name: spin;
-  -webkit-animation-name: spin;
-  animation-duration: 1200ms;
-  -webkit-animation-duration: 1200ms;
-  animation-timing-function: linear;
-  -webkit-animation-timing-function: linear;
-  animation-iteration-count: 2;
-  -webkit-animation-iteration-count: 2;
-  animation-fill-mode: forwards;
-  -webkit-animation-fill-mode: forwards;
-}
- #spiner
- {
-  -webkit-animation: fondblanc 5s;
-  animation-name: fondblanc;
-  animation-timing-function:ease;
-  animation-delay: 0s;
-  animation-iteration-count: 1;
-  animation-direction:normal; 
-  animation-fill-mode:none;
-  animation-duration: 5s;
-  animation-play-state: running
-
- }*/
-
  .chargement 
   {
   position: fixed;

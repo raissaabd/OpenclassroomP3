@@ -80,4 +80,193 @@
 
 } 
     
-  }
+}
+
+    /* La version mobile revisité de la page d'acceuil de 320px à 350px*/
+   @media screen and (min-width:320px) and (max-width:350px) 
+
+{ 
+
+    *  { margin: 0px; padding: 0px;   }
+     
+#accroche
+{ 
+  font-size:larger;
+}
+    
+#accrocher 
+{ 
+  font-size:large;
+}    
+
+.Titrecontener2
+{
+  font-size: larger;
+}
+
+.cylindrique1,.cylindrique2,.cylindrique3 
+{
+  display: flex;
+  width: 275px;
+  height:90px;
+  background-color:whitesmoke;
+  border-bottom-left-radius:25px;
+  border-top-left-radius:25px;
+  border-bottom-right-radius:25px;
+  border-top-right-radius:25px;
+  margin-bottom:30px;
+  align-items:center;
+  margin-left:auto;
+  margin-right:auto;
+  box-shadow: 7px 8px 8px lightgrey;               
+}
+.titrecylindrique
+{
+  margin-left: 20px;
+  font-size: medium;
+}
+
+.contener3 
+{
+  padding-top: 35px;
+}
+
+#contener3titre
+{
+  font-size: large;
+}
+
+.card1,.card2,.card3 
+{        
+  display:flex; 
+  width:280px;
+  height:260px;
+  border:none;                                
+  border-radius: 20px;                                  
+  justify-items: center;                                  
+  background-color: white;                                 
+  align-items:center;                                  
+  box-shadow: 0 0 2em lightgrey;
+  margin-left:auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+} 
+
+.card4 
+{        
+  display:flex; 
+  width:280px;
+  height:260px;
+  border:none;                                
+  border-radius: 20px;                                  
+  justify-items: center;                                  
+  background-color: white;                                 
+  align-items:center;                                  
+  box-shadow: 0 0 2em lightgrey;
+  margin-left:auto;
+  margin-right: auto;  
+} 
+
+.contener3 img 
+{
+  object-fit: cover;
+  border-top-left-radius:20px;
+  border-top-right-radius:20px;
+  width:281px;
+  height: 197px;
+}
+
+}
+
+/* La version mobile revisité de la page d'acceuil de 350px à 380px*/
+@media screen and (min-width:350px) and (max-width:380px) 
+
+{ 
+    
+*  { margin: 0px; padding: 0px; } 
+
+#accroche
+{ 
+  font-size:larger;
+}
+    
+#accrocher 
+{ 
+  font-size:large;
+}
+
+.Titrecontener2
+{
+  font-size: larger;
+}
+
+.cylindrique1,.cylindrique2,.cylindrique3 
+{
+  display: flex;
+  width: 310px;
+  height:90px;
+  background-color:whitesmoke;
+  border-bottom-left-radius:25px;
+  border-top-left-radius:25px;
+  border-bottom-right-radius:25px;
+  border-top-right-radius:25px;
+  margin-bottom:30px;
+  align-items:center;
+  margin-left:auto;
+  margin-right:auto;
+  box-shadow: 7px 8px 8px lightgrey;               
+}
+
+.titrecylindrique
+{
+  margin-left: 20px;
+  font-size: medium;
+}
+
+#contener3titre
+{
+  font-size: large;
+}
+
+.card1,.card2,.card3 
+{        
+  display:flex; 
+  width:315px;
+  height:260px;
+  border:none;                                
+  border-radius: 20px;                                  
+  justify-items: center;                                  
+  background-color: white;                                 
+  align-items:center;                                  
+  box-shadow: 0 0 2em lightgrey;
+  margin-left:auto;
+  margin-right: auto;
+  margin-bottom: 30px;    
+} 
+    
+.card4 
+{        
+  display:flex; 
+  width:315px;
+  height:260px;
+  border:none;                                
+  border-radius: 20px;                                  
+  justify-items: center;                                  
+  background-color: white;                                 
+  align-items:center;                                  
+  box-shadow: 0 0 2em lightgrey;
+  margin-left:auto;
+  margin-right: auto;  
+} 
+    
+.contener3 img 
+{
+  object-fit: cover;
+  border-top-left-radius:20px;
+  border-top-right-radius:20px;
+  width:315px;
+  height: 197px;
+}
+        
+}
+    
