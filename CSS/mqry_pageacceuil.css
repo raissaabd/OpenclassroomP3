@@ -82,6 +82,69 @@
     
 }
 
+  /* La version desktop de la page d'acceuil  modification des cards menu pour ecran de 1140px à1520px */
+  
+@media only screen and (min-width : 1140px) and (max-width :1520px ) 
+{ 
+
+*  { margin: 0px; padding: 0px;   } 
+
+.contener3 img 
+{
+  object-fit: cover;
+  border-top-left-radius:20px;
+  border-top-right-radius:20px;
+  width:250px;
+  height: 197px;
+}
+
+
+  
+.card1,.card2,.card3,.card4 
+{        
+  display:flex; 
+  width:250px;
+  height:260px;
+  border:none;                                
+  border-radius: 20px;                                  
+  justify-items: center;                                  
+  background-color: white;                                 
+  align-items:center;                                  
+  box-shadow: 0 0 2em lightgrey;
+  margin-left:25px;
+  margin-bottom: 0px;
+  margin-top: 30px;
+    
+}
+
+}
+
+/* La version desktop de la page d'acceuil  modification des cylinrique menu pour ecran de 1140px à1210px */
+  
+@media only screen and (min-width : 1140px) and (max-width :1210px ) 
+{ 
+
+  *  { margin: 0px; padding: 0px;   } 
+
+  .cylindrique1,.cylindrique2,.cylindrique3 
+  {
+    display: flex;
+    width: 340px;
+    height:90px;
+    background-color:whitesmoke;
+    border-bottom-left-radius:25px;
+    border-top-left-radius:25px;
+    border-bottom-right-radius:25px;
+    border-top-right-radius:25px;
+    margin-bottom:30px;
+    align-items:center;
+    margin-left:auto;
+    margin-right:auto;
+    box-shadow: 7px 8px 8px lightgrey;               
+  }
+  
+}
+  
     /* La version mobile revisité de la page d'acceuil de 320px à 350px*/
    @media screen and (min-width:320px) and (max-width:350px) 
 
