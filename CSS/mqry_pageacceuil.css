@@ -223,7 +223,7 @@
 {        
   display:flex; 
   width:280px;
-  height:260px;
+  height:200px;
   border:none;                                
   border-radius: 20px;                                  
   justify-items: center;                                  
@@ -239,7 +239,7 @@
 {        
   display:flex; 
   width:280px;
-  height:260px;
+  height:200px;
   border:none;                                
   border-radius: 20px;                                  
   justify-items: center;                                  
@@ -256,7 +256,7 @@
   border-top-left-radius:20px;
   border-top-right-radius:20px;
   width:281px;
-  height: 197px;
+  height: 137px;
 }
 
 .espacerleheart
